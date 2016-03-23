@@ -46,10 +46,14 @@ class Message
 
     /**
      * @param MessageField $field
+     *
+     * @return $this
      */
     public function addField(MessageField $field)
     {
         $this->fields[] = $field;
+
+        return $this;
     }
 
     /**
@@ -102,9 +106,13 @@ class Message
 
     /**
      * @param string $username
+     *
+     * @return $this
      */
     public function setUsername($username)
     {
         $this->username = $username;
+
+        return $this;
     }
 }
