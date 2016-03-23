@@ -1,0 +1,11 @@
+{
+  "name": "inisire/slack",
+  "description": "Tools for integration with Slack",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-0": {
+      "Slack": "src/"
+    }
+  }
+}
